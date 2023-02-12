@@ -39,6 +39,7 @@ body{
     text-align: center;
     margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
 }
 
 .summary h1{
@@ -53,5 +54,4 @@ body{
 .summary ul li a:hover{
     color: #fff; /*ANIMAÇAO DO TEXTO*/
 }
-
 /* Summary style ----------------- fim*/
