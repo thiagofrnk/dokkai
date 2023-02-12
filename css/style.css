@@ -15,6 +15,7 @@ body{
     text-align: center;
     padding: 15px;
     font-family: 'Montserrat', sans-serif;
+    border-bottom:1px solid #cf1e0e;
 }
 
 .nav-bar ul li{
@@ -32,3 +33,25 @@ body{
 }
 
 /* Navigation-bar ---------------- FIM */
+
+/* Summary style ----------------- inicio*/
+.summary{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.summary h1{
+    padding: 15px;
+}
+
+.summary ul li a{
+    text-decoration: none;
+    color: #cf1e0e;
+}
+
+.summary ul li a:hover{
+    color: #fff; /*ANIMAÇAO DO TEXTO*/
+}
+
+/* Summary style ----------------- fim*/
