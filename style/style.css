@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+    background: linear-gradient(67.19deg, #202020 0%, #0F0F0F 99.43%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-box{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 325px;
+    height: 386px;
+    border-radius: 20px;
+    top: 223px;
+    text-align: center;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+h1{
+    margin: 40px 0px 40px 0px;
+    color: #D70E0E;
+}
+.object{
+    margin: 8px;
+    width: 272px;
+    height: 35px;
+    border: 1px solid #BBBBBB;
+    border-radius: 20px;
+}
+
+.botao-entrar{
+    color: #FFFFFF;
+    margin: 40px 0.5vw 0px 0.5vw;
+    background-color: #D70E0E;
+    border: none;
+    width: 272px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.botao-entrar:hover{
+    background-color: #FFFFFF;
+    color: #D70E0E;
+    border: 1px solid #D70E0E;
+}
+
+input::placeholder{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #D70E0E;
+}
+
+.recado{
+    margin: 20px auto;
+    font-size: 15px;
+}
